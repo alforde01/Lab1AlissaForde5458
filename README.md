@@ -4,7 +4,7 @@ Option 1 - Calculator Library (libcalc)
 Environment: macOS
 --------------------------
 
-**Command 1: Compile calc.c**
+# **Command 1: Compile calc.c**
 
 $ gcc -c calc.c -o calc.o
 
@@ -39,7 +39,7 @@ $ gcc -shared -o libcalc.so calc_pic.o
 Output File Generated: libcalc.so
 
 
-**Command 6: Compiling main program **
+**Command 6: Compiling main program**
 
 $ gcc main.c -o main
 
