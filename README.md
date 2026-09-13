@@ -5,7 +5,9 @@ Environment: macOS
 --------------------------
 
 **Command 1: Compile calc.c**
+
 $ gcc -c calc.c -o calc.o
+
 Output File Generated: calc.o
 
 **Command 2: Archive object files in static library**
