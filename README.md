@@ -11,42 +11,42 @@ $ gcc -c calc.c -o calc.o
 Output File Generated: calc.o
 
 
-**Command 2: Archive object files in static library**
+### **Command 2: Archive object files in static library**
 
 $ ar rc libcalc.a calc.o
 
 Output File Generated: libcalc.a
 
 
-**Command 3: Index static library**
+### **Command 3: Index static library**
 
 $ ranlib libcalc.a
 
 Output File Generated: update symbol table in libcalc.a
 
 
-**Command 4: Compile calc.c**
+### **Command 4: Compile calc.c**
 
 $ gcc -fPIC -c calc.c -o calc_pic.o
 
 Output File Generated: calc_pic.o
 
 
-**Command 5: Dynamic Library**
+### **Command 5: Dynamic Library**
 
 $ gcc -shared -o libcalc.so calc_pic.o
 
 Output File Generated: libcalc.so
 
 
-**Command 6: Compiling main program**
+### **Command 6: Compiling main program**
 
 $ gcc main.c -o main
 
 Output File Generated: main
 
 
-**Command 7: Executable**
+### **Command 7: Executable**
 
 $ ./main
 
